@@ -247,11 +247,11 @@ def solve_cell(y, x):
 returns it.'''
 
 
-def evaluate_sheet(data_fix):
+def evaluate_sheet(data_sheet):
     global y, x, data
-    data = data_fix
-    for y in range(len(data_fix)):
-        for x in range(len(data_fix[y])):
+    data = data_sheet
+    for y in range(len(data)):
+        for x in range(len(data[y])):
             data[y][x] = solve_cell(y, x)
     return data
 
