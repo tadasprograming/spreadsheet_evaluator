@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+
+        
+    ],    
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true,
+    "python.analysis.extraPaths": []
+}
